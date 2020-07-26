@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.company.doctorapplication.Utills.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_53_height"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryLight"
+            android:gravity="center"
+            android:padding="@dimen/_10_height"
+            android:text="@string/choose_image_method"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+
+        <com.company.doctorapplication.Utills.MyTextView
+            android:id="@+id/take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_53_height"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/_10_height"
+            android:text="@string/take_a_picture"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp_height"
+            android:background="@color/colorPrimaryDark" />
+
+        <com.company.doctorapplication.Utills.MyTextView
+            android:id="@+id/photo_album"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_53_height"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/_10_height"
+            android:text="photo album"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+
+        <com.company.doctorapplication.Utills.ButtonBold
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_53_height"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

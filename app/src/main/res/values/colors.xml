@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#087f23</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="facebookPrimary">#3B579D</color>
+    <color name="colorPrimaryLight">#b2fab4</color>
+    <color name="darkSilver">#808080</color>
+    <color name="yellow">#ffd500</color>
+    <color name="green">#009800</color>
+    <color name="dark_red">#D00000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="medium_silver">#A0A0A0</color>
+    <color name="light_silver">#F0F0F0</color>
+
+
+    <color name="button_pressed">#BC0000</color>
+    <color name="button_focused">#BC0000</color>
+    <color name="button_default">#D00000</color>
+</resources>

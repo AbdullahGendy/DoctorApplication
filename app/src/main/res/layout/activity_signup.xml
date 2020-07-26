@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp" />
+
+            <com.company.doctorapplication.Utills.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sign_up"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_20ssp" />
+
+            <com.company.doctorapplication.Utills.MyEditText
+                android:id="@+id/name_text_view"
+                style="@style/editTextStyle"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10_height"
+                android:layout_marginTop="@dimen/_16ssp"
+                android:layout_marginEnd="@dimen/_10_height"
+                android:layout_marginBottom="@dimen/_10_height"
+                android:drawableStart="@drawable/name"
+                android:hint="@string/name"
+                android:inputType="text" />
+
+
+            <com.company.doctorapplication.Utills.MyEditText
+                android:id="@+id/password_text_view"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10_height"
+                android:drawableStart="@drawable/password"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart" />
+
+            <com.company.doctorapplication.Utills.MyEditText
+                android:id="@+id/confirm_password_text_view"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10_height"
+                android:drawableStart="@drawable/password"
+                android:hint="@string/re_password"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart" />
+
+            <com.company.doctorapplication.Utills.MyEditText
+                android:id="@+id/mail_text_view"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10_height"
+                android:drawableStart="@drawable/email"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress" />
+
+            <com.company.doctorapplication.Utills.MyEditText
+                android:id="@+id/mobile_text_view"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10_height"
+                android:drawableStart="@drawable/phone"
+                android:hint="@string/mobile"
+                android:inputType="phone" />
+
+            <com.company.doctorapplication.Utills.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="Governorate:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+            <Spinner
+                android:id="@+id/spinner_governorate"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp" />
+
+            <com.company.doctorapplication.Utills.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="Blood Type:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+            <Spinner
+                android:id="@+id/spinner_blood_type"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp" />
+
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4_height"
+                android:layout_marginEnd="@dimen/_4_height"
+                android:layout_marginBottom="@dimen/_4_height"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+                android:outlineSpotShadowColor="@color/colorPrimaryDark"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/male_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:checked="true"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/male"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <RadioButton
+                    android:id="@+id/female_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/female"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorPrimaryDark" />
+            </RadioGroup>
+
+            <com.company.doctorapplication.Utills.MyEditTextBold
+                android:id="@+id/Birthday"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10_height"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Date Of Birth"
+                android:inputType="number"
+                android:maxLines="1"
+                android:text="MM-DD-YYYY"
+                tools:ignore="Deprecated" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Done" />
+
+            <com.company.doctorapplication.Utills.ButtonBold
+                android:id="@+id/sign_up_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45_height"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10_height"
+                android:background="@drawable/shape_login_background"
+                android:gravity="center"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_15sdp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

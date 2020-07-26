@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AndroidTask</string>
+    <string name="android_task">Android Task</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">sign up</string>
+    <string name="forget_password">forget Password?</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="or">OR</string>
+    <string name="e_mail">E-mail</string>
+    <string name="username">Name</string>
+    <string name="name">Name</string>
+    <string name="re_password">Re-Password</string>
+    <string name="mail">Mail</string>
+    <string name="mobile">Mobile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="current_position">Current Position</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+    <string name="ok">Ok</string>
+    <string name="do_you_want_to_access_contacts">Do You Want To Access Contacts?</string>
+    <string name="can_t_access_your_contacts">Can\'t Access your Contacts</string>
+    <string name="error">Error</string>
+    <string name="search">Search</string>
+    <string name="choose_image_method">Choose Image Method</string>
+    <string name="take_a_picture">take a picture</string>
+    <string name="remember_me">Remember Me</string>
+</resources>

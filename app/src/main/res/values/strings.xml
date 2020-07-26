@@ -1,0 +1,109 @@
+<resources>
+
+    <string name="facebook_app_id" translatable="false">290556735184985</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb290556735184985</string>
+    <string name="app_name">DoctorApp</string>
+    <string name="android_task">Android \n Task</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">sign up</string>
+    <string name="forget_password">forget Password?</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="or">OR</string>
+    <string name="e_mail">E-mail</string>
+    <string name="username">Name</string>
+    <string name="name">Full Name</string>
+    <string name="re_password">Re-Password</string>
+    <string name="mail">Mail</string>
+    <string name="mobile">Mobile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="array_days">
+
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="array_time">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string-array name="array_governorate">
+        <item>Alexandria</item>
+        <item>Giza</item>
+        <item>Cairo</item>
+        <item>Aswan</item>
+        <item>Asyut</item>
+        <item>Beheira</item>
+        <item>Beni Suef</item>
+        <item>Dakahlia</item>
+        <item>Damietta</item>
+        <item>Faiyum</item>
+    </string-array>
+    <string-array name="array_blood_type">
+
+        <item>O-</item>
+        <item>O+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>A+</item>
+    </string-array>
+    <string-array name="array_Date">
+
+        <item>01/09/2019</item>
+        <item>02/09/2019</item>
+        <item>01/09/2019</item>
+        <item>03/09/2019</item>
+        <item>04/09/2019</item>
+        <item>05/09/2019</item>
+        <item>06/09/2019</item>
+        <item>07/09/2019</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="current_position">Current Position</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+    <string name="ok">Ok</string>
+    <string name="do_you_want_to_access_contacts">Do You Want To Access Contacts?</string>
+    <string name="can_t_access_your_contacts">Can\'t Access your Contacts</string>
+    <string name="error">Error</string>
+    <string name="search">Search</string>
+    <string name="choose_image_method">Choose Image Method</string>
+    <string name="take_a_picture">take a picture</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="my_profile">My Profile</string>
+    <string name="doctorapp">DoctorApp</string>
+</resources>

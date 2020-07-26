@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_10sdp" />
+
+        <com.company.patientapplication.Utills.MyTextViewBold
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Reservations"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textSize="@dimen/_17ssp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_10sdp" />
+
+        <com.company.patientapplication.Utills.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:gravity="left"
+            android:padding="@dimen/_10sdp"
+            android:text="Pick The Clinic:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_11ssp" />
+
+
+        <Spinner
+            android:id="@+id/spinner_clinic"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp" />
+
+        <com.company.patientapplication.Utills.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+
+            android:gravity="left"
+            android:padding="@dimen/_10sdp"
+            android:text="Pick The Date:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_11ssp" />
+
+
+        <com.company.patientapplication.Utills.MyTextViewBold
+            android:id="@+id/Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/shape_edit_text_background"
+            android:drawableEnd="@drawable/drop_down_arrow"
+            android:drawablePadding="@dimen/_4sdp"
+            android:drawableTint="@color/white"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="M M - D D - Y Y Y Y"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="Deprecated" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Done" />
+
+
+        <com.company.patientapplication.Utills.ButtonBold
+            android:id="@+id/Check_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/shape_login_background"
+            android:gravity="center"
+            android:text="Check"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+
+
+        <com.company.patientapplication.Utills.ButtonBold
+            android:id="@+id/Reserve_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/shape_login_background"
+            android:gravity="center"
+            android:text="Reserve"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10_height" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="410">
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/reviewer_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="44"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_nav_icon" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="224"
+            android:orientation="vertical">
+
+
+            <com.company.doctorapplication.Utills.MyTextViewBold
+                android:id="@+id/reviewer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10_height" />
+
+            <com.company.doctorapplication.Utills.MyTextViewBold
+                android:id="@+id/review_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="reviews comment"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/favourite_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="92"
+            android:orientation="vertical">
+
+
+            <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                android:id="@+id/doctor_rate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp"
+                app:srb_borderColor="@color/golden_stars"
+                app:srb_fillColor="@color/golden_stars"
+                app:srb_gravity="left"
+                app:srb_isIndicator="true"
+                app:srb_numberOfStars="5"
+                app:srb_rating="3"
+                app:srb_starBorderWidth="3"
+                app:srb_starCornerRadius="0"
+                app:srb_starsSeparation="@dimen/_2sdp"
+                app:srb_stepSize="0.1" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10_height" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp_height"
+        android:layout_marginStart="@dimen/safe_margin"
+        android:layout_marginEnd="@dimen/safe_margin"
+        android:background="@color/light_silver" />
+
+</LinearLayout>
+

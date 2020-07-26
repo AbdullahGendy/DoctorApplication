@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+
+    <dimen name="menu_vertical_height">750dp</dimen>
+    <dimen name="address_item_height">123dp</dimen>
+    <dimen name="pin_margin">8.5dp</dimen>
+    <dimen name="pin_height">40dp</dimen>
+    <dimen name="pin_width">29dp</dimen>
+    <dimen name="favourite_item_height">57dp</dimen>
+    <dimen name="safe_margin">17.7dp</dimen>
+    <dimen name="half_safe_margin">9dp</dimen>
+
+    <dimen name="app_bar_height">45dp</dimen>
+    <dimen name="most_ordered_item_height">158dp</dimen>
+    <dimen name="most_ordered_item_width">79dp</dimen>
+    <dimen name="navigation_drawer_width" >288dp</dimen>
+    <dimen name="category_recycler_item_width">158dp</dimen>
+    <dimen name="category_recycler_item_height">108dp</dimen>
+    <dimen name="item_restaurant_height">93dp</dimen>
+    <dimen name="restaurant_card_height">130dp</dimen>
+    <dimen name="item_review_restaurant">84dp</dimen>
+    <dimen name="item_offers_height">338dp</dimen>
+    <dimen name="_10_height">9dp</dimen>
+    <dimen name="_15_height">14dp</dimen>
+    <dimen name="_30_height">28dp</dimen>
+    <dimen name="_45_height">42dp</dimen>
+    <dimen name="_53_height">49dp</dimen>
+    <dimen name="_84_height">84dp</dimen>
+    <dimen name="_210_height">197dp</dimen>
+    <dimen name="_20_height">18.45dp</dimen>
+    <dimen name="_1dp_height">.93dp</dimen>
+    <dimen name="_4dp_height">3.7dp</dimen>
+    <dimen name="_88_dp_height">82dp</dimen>
+
+
+
+    <dimen name="_325_dp_width">385dp</dimen>
+    <dimen name="_232_dp_height">215dp</dimen>
+    <dimen name="_250_dp_width">220dp</dimen>
+    <dimen name="_263_dp_height">246dp</dimen>
+    <dimen name="_477_dp_height">443dp</dimen>
+    <dimen name="_559_dp_height">522dp</dimen>
+    <dimen name="_128_dp_height">117dp</dimen>
+    <dimen name="_218_dp_width">191dp</dimen>
+    <dimen name="_265_dp_height">246dp</dimen>
+
+
+</resources>
